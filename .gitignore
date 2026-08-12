@@ -1,0 +1,22 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+/builds/
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono / C# specific (uncomment if using C#)
+# .mono/
+# data_*/
+# mono_crash.*.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Original asset pack backup (already organized into assets/)
+/Pixel Crawler - Free Pack/
