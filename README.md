@@ -1,6 +1,6 @@
-# TestGame — Godot 4.x 项目结构说明
+# TestGame — Godot 4.7 项目结构说明
 
-> 像素风 2D 游戏项目，使用 [Godot 4.3](https://godotengine.org/) 引擎，素材来自 [Pixel Crawler - Free Pack](https://anokolisa.itch.io/) by Anokolisa。
+> 像素风 2D 游戏项目，使用 [Godot 4.7](https://godotengine.org/) 引擎，素材来自 [Pixel Crawler - Free Pack](https://anokolisa.itch.io/) by Anokolisa。
 
 ---
 
@@ -189,7 +189,7 @@ GDScript（.gd）脚本按功能模块分目录。`autoload/` 用于全局单例
 
 ## 快速开始
 
-1. **打开项目**：用 Godot 4.3+ 打开 `d:\Project\testGame\project.godot`
+1. **打开项目**：用 Godot 4.7 打开 `d:\Project\testGame\project.godot`
 2. **首次打开**：Godot 会自动扫描并导入所有素材文件，生成 `.godot/` 缓存目录
 3. **创建第一个场景**：在 `scenes/player/` 下新建场景，将 `assets/sprites/characters/body_a/` 中的动画精灵拖入
 4. **配置自动加载**：如需全局单例，在 `项目 > 项目设置 > Autoload` 中注册 `scripts/autoload/` 下的脚本
